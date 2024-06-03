@@ -1,15 +1,17 @@
 <template>
   <ins class="adsbygoogle"
        :style="adStyle"
-       :data-ad-client="adClient"
-       :data-ad-slot="adSlot"
-       :data-ad-format="adFormat"
-       :data-full-width-responsive="fullWidthResponsive"
-       ></ins>
+       :data-ad-client="client"
+       :data-ad-slot="slot"
+       :data-ad-format="format"
+       :data-full-width-responsive="fullWidthResponsive">
+  </ins>
+
 </template>
 
 <script>
 export default {
+  name: 'DisplayAds',
   props: {
     adStyle: {
       type: String,
@@ -17,17 +19,17 @@ export default {
       default: 'display: block'
     },
 
-    adClient: {
+    client: {
       type: String,
       required: true
     },
 
-    adSlot: {
+    slot: {
       type: String,
       required: true
     },
 
-    adFormat: {
+    format: {
       type: String,
       required: false,
       default: 'auto'
@@ -39,7 +41,6 @@ export default {
       default: 'false'
     }
   },
-
 
   mounted() {
     (window.adsbygoogle = window.adsbygoogle || []).push({})

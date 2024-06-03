@@ -1,9 +1,18 @@
 {
   "name": "vue3-google-adsense",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/vue3-google-adsense.umd.js",
+  "module": "dist/vue3-google-adsense.esm.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name vue3-google-adsense src/index.js",
+    "lint": "vue-cli-service lint"
+  },
   "version": "0.0.0",
   "private": true,
   "description": "Google Adsense Component for Vue 3",
-  "main": "main.js",
   "keywords": [
     "vue adsense",
     "vue google adsense",
@@ -20,5 +29,10 @@
   },
   "bugs": {
     "url": "https://github.com/lcw3176/vue3-google-adsense/issues"
+  },
+
+  "devDependencies": {
+    "vue": "^3.4.27",
+    "@vue/cli-service": "^5.0.8"
   }
 }
