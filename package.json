@@ -1,0 +1,24 @@
+{
+  "name": "vue3-google-adsense",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Google Adsense Component for Vue 3",
+  "main": "main.js",
+  "keywords": [
+    "vue adsense",
+    "vue google adsense",
+    "vuejs adsense",
+    "vuejs google adsense",
+    "vue3 adsense",
+    "vue3 google adsense"
+  ],
+  "license": "MIT",
+  "author": "Chanwoo LEE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcw3176/vue3-google-adsense.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lcw3176/vue3-google-adsense/issues"
+  }
+}
