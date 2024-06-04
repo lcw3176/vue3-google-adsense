@@ -1,4 +1,8 @@
 <template>
+  <component async
+             :is="'script'"
+          :src="scriptSrc"
+          crossorigin="anonymous"></component>
   <ins class="adsbygoogle"
        :style="adStyle"
        :data-ad-client="client"
@@ -6,6 +10,9 @@
        :data-ad-format="format"
        :data-full-width-responsive="fullWidthResponsive">
   </ins>
+  <component :is="'script'">
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </component>
 
 </template>
 
@@ -42,8 +49,10 @@ export default {
     }
   },
 
-  mounted() {
-    (window.adsbygoogle = window.adsbygoogle || []).push({})
+  data(){
+    return {
+      scriptSrc: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + this.client,
+    }
   }
 }
 </script>
