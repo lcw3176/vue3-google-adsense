@@ -1,7 +1,7 @@
-import DisplayAds from './DisplayAds.vue';
+import Adsense from './Adsense.vue';
 
-export { DisplayAds };
+export { Adsense };
 
 export default {
-    DisplayAds,
+    Adsense,
 };

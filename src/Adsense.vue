@@ -8,6 +8,8 @@
        :data-ad-client="client"
        :data-ad-slot="slot"
        :data-ad-format="format"
+       :data-ad-layout-key="layoutKey"
+       :data-ad-layout="layout"
        :data-full-width-responsive="fullWidthResponsive">
   </ins>
   <component :is="'script'">
@@ -39,13 +41,25 @@ export default {
     format: {
       type: String,
       required: false,
-      default: 'auto'
+      default: ''
     },
 
     fullWidthResponsive: {
       type: String,
       required: false,
       default: 'false'
+    },
+
+    layoutKey: {
+      type: String,
+      required: false,
+      default: ''
+    },
+
+    layout:{
+      type: String,
+      required: false,
+      default: ''
     }
   },
 
