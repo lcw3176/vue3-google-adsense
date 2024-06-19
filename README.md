@@ -79,7 +79,7 @@ Import the component and use it.
 
 ```vue
 
-  <Adsense style="display:block; text-align:center;"
+  <Adsense adStyle="display:block; text-align:center;"
          layout="in-article"
          format="fluid"
          client="ca-pub-xxxxxxxx"
@@ -90,7 +90,7 @@ Import the component and use it.
 ### Multiplex Ads (Responsive)
 ```vue
 
-  <Adsense style="display:block"
+  <Adsense adStyle="display:block"
          format="autorelaxed"
          client="ca-pub-xxxxxxxx"
          slot="xxxxxxxx">
@@ -101,7 +101,7 @@ Import the component and use it.
 ### Multiplex Ads (fixed)
 ```vue
 
-  <Adsense style="display:inline-block;width:360px;height:800px"
+  <Adsense adStyle="display:inline-block;width:360px;height:800px"
          client="ca-pub-xxxxxxxx"
          slot="xxxxxxxx">
       
