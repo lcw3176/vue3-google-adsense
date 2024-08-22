@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'DisplayAds',
+  name: 'Adsense',
   props: {
     adStyle: {
       type: String,
