@@ -1,7 +1,6 @@
 # Reference
 # https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates#about-the-dependabotyml-file
 version: 2
-
 updates:
   - package-ecosystem: npm
     directory: "."
