@@ -1,0 +1,17 @@
+# Reference
+# https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates#about-the-dependabotyml-file
+version: 2
+
+updates:
+  - package-ecosystem: npm
+    directory: "."
+    schedule:
+      interval: weekly
+      time: "09:00"
+      timezone: Asia/Seoul
+    open-pull-requests-limit: 5
+    target-branch: dev
+    reviewers:
+      - "lcw3176"
+    labels:
+      - "Dependencies"
