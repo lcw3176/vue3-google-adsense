@@ -5,8 +5,8 @@
           crossorigin="anonymous"></component>
   <ins class="adsbygoogle"
        :style="adStyle"
-       :data-ad-client="client"
-       :data-ad-slot="slot"
+       :data-ad-client="clientId"
+       :data-ad-slot="slotId"
        :data-ad-format="format"
        :data-ad-layout-key="layoutKey"
        :data-ad-layout="layout"
@@ -28,12 +28,12 @@ export default {
       default: 'display: block'
     },
 
-    client: {
+    clientId: {
       type: String,
       required: true
     },
 
-    slot: {
+    slotId: {
       type: String,
       required: true
     },
@@ -65,7 +65,7 @@ export default {
 
   data(){
     return {
-      scriptSrc: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + this.client,
+      scriptSrc: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + this.clientId,
     }
   }
 }
