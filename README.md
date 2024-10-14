@@ -16,8 +16,8 @@ Import the component and use it.
 ```vue
 <template>
   <Adsense adStyle="display:inline-block;width:300px;height:300px"
-           client="ca-pub-xxxxxxxx"
-           slot="xxxxxxxx">
+           clientId="ca-pub-xxxxxxxx"
+           slotId="xxxxxxxx">
     
   </Adsense>
 </template>
@@ -45,8 +45,8 @@ Import the component and use it.
 
 ```vue
   <Adsense adStyle="display:block"
-           client="ca-pub-xxxxxxxx"
-           slot="xxxxxxxx"
+           clientId="ca-pub-xxxxxxxx"
+           slotId="xxxxxxxx"
            format="auto"
            fullWidthResponsive="true">
   </Adsense>
@@ -56,8 +56,8 @@ Import the component and use it.
 
 ```vue
   <Adsense adStyle="display:inline-block;width:300px;height:300px"
-           client="ca-pub-xxxxxxxx"
-           slot="xxxxxxxx">
+           clientId="ca-pub-xxxxxxxx"
+           slotId="xxxxxxxx">
     
   </Adsense>
 ```
@@ -69,8 +69,8 @@ Import the component and use it.
   <Adsense adStyle="display:block"
            format="fluid"
            layoutKey="-6t+ed+2i-1n-4w"
-           client="ca-pub-xxxxxxxx"
-           slot="xxxxxxxx">
+           clientId="ca-pub-xxxxxxxx"
+           slotId="xxxxxxxx">
 
   </Adsense>
 ```
@@ -82,8 +82,8 @@ Import the component and use it.
   <Adsense adStyle="display:block; text-align:center;"
          layout="in-article"
          format="fluid"
-         client="ca-pub-xxxxxxxx"
-         slot="xxxxxxxx">
+         clientId="ca-pub-xxxxxxxx"
+         slotId="xxxxxxxx">
   </Adsense>
 ```
 
@@ -92,8 +92,8 @@ Import the component and use it.
 
   <Adsense adStyle="display:block"
          format="autorelaxed"
-         client="ca-pub-xxxxxxxx"
-         slot="xxxxxxxx">
+         clientId="ca-pub-xxxxxxxx"
+         slotId="xxxxxxxx">
       
   </Adsense>
 ```
@@ -102,8 +102,8 @@ Import the component and use it.
 ```vue
 
   <Adsense adStyle="display:inline-block;width:360px;height:800px"
-         client="ca-pub-xxxxxxxx"
-         slot="xxxxxxxx">
+         clientId="ca-pub-xxxxxxxx"
+         slotId="xxxxxxxx">
       
   </Adsense>
 ```
@@ -112,8 +112,8 @@ Import the component and use it.
 
 | Attribute | Default            | Origin adsense tag         | Required |
 |-----------|--------------------|----------------------------|----------|
-| client    |                    | data-ad-client             | true     |
-| slot      |                    | data-ad-slot               | true     |
+| clientId    |                    | data-ad-client             | true     |
+| slotId      |                    | data-ad-slot               | true     |
 | adStyle   | display: block     | style                      | fasle    |
 | format    | empty String ('')  | data-ad-format             | false    |
 | fullWidthResponsive    | false              | data-full-width-responsive | false    |
