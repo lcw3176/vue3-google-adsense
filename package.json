@@ -10,7 +10,7 @@
     "build": "vue-cli-service build --target lib --name vue3-google-adsense src/index.js",
     "lint": "vue-cli-service lint"
   },
-  "version": "0.2.2",
+  "version": "1.2.2",
   "description": "Google Adsense Component for Vue 3",
   "keywords": [
     "vue adsense",
