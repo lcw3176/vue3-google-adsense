@@ -2,6 +2,8 @@
 
 vue 3 component for google adsense
 
+demo is [here](https://kmapshot.com)
+
 ## Installation
 
 ```bash
