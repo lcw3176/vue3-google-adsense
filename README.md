@@ -121,3 +121,12 @@ Import the component and use it.
 | fullWidthResponsive    | false              | data-full-width-responsive | false    |
 | layoutKey    | empty String ('')  | data-ad-layout-key         | false    |
 |layout| empty String ('')  | data-ad-layout                           | false    |
+
+
+## Contributors
+
+<a href="https://github.com/lcw3176/vue3-google-adsense/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=lcw3176/vue3-google-adsense" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
